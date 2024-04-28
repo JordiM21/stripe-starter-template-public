@@ -3,7 +3,7 @@
 import Button from '@/components/ui/Button';
 import { signInWithOAuth } from '@/utils/auth-helpers/client';
 import { type Provider } from '@supabase/supabase-js';
-import { Github } from 'lucide-react';
+import { Github, MailIcon } from 'lucide-react';
 import { useState } from 'react';
 
 type OAuthProviders = {
